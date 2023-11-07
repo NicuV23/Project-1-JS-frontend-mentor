@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+.hidden {
+  display: none;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+}
+.card {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  width: 350px;
+}
+.card_container {
+  padding: 25px;
+}
+.star_icon {
+  background-color: hsl(213, 19%, 28%);
+  width: fit-content;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 14px;
+}
+.title {
+  color: white;
+  margin-bottom: 15px;
+}
+.description {
+  font-size: 14px;
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 16px;
+}
+.ratings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.ratings p {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(213, 19%, 28%);
+  border-radius: 50%;
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.ratings p:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+.submit_btn {
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  background-color: orange;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.submit_btn:hover {
+  background-color: white;
+  color: orange;
+}
+.thank_section {
+  text-align: center;
+}
+.chip {
+  background-color: hsl(213, 19%, 28%);
+  width: fit-content;
+  margin: 10px auto;
+  color: orange;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.checked {
+  background-color: orange !important;
+  color: white !important;
+}
